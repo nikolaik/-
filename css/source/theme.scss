@@ -1,0 +1,78 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+ // This file has been copied over from
+ // ../../bower_components/reveal.js/css/theme/source/black.scss
+
+ // See ../../bower_components/reveal.js/css/theme/README.md
+ // for further explanations on how to create a custom reveal.js theme.
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+
+@font-face {
+    font-family: 'Noto Color Emoji';
+    src: url('../resources/NotoColorEmoji.ttf') format('opentype');
+    /* Emoji block ranges */
+    unicode-range: U+1F1E6-1F1FF, U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2300-23FF, U+2600-26FF, U+2700-27BF;
+}
+$emojiFont: 'Noto Color Emoji';
+
+// Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
+$backgroundColor: #222;
+
+$mainColor: #fff;
+$headingColor: #fff;
+
+$mainFontSize: 38px;
+$mainFont: $emojiFont, 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: $emojiFont, 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #42affa;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+// Theme template
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+.reveal {
+    img.inline-image {
+        height: 1em;
+        width: 1em;
+        margin: 0 .05em 0 .1em;
+        vertical-align: -0.1em;
+
+        background: none;
+        border: 0;
+        box-shadow: none;
+    }
+    .insta-maxheight {
+        max-height: 440px;
+    }
+    small.v {
+        font-size: 0.5em;
+        vertical-align: baseline;
+    }
+}
