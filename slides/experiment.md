@@ -1,0 +1,3 @@
+- 💃💃💃💃💃Dancers moving in from left and right
+- 🗻Mount fuji exploding with flowers🌸🌸🌸 and fireworks 🎆🎆🎆
+- dragons flying 🐲🐲🐲🐉🐉🐉 everywhere
