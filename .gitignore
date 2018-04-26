@@ -1,7 +1,2 @@
-node_modules
-bower_components
-dist
-*.log
-.sass-cache
-/index.html
-/.idea
+node_modules/
+_site/

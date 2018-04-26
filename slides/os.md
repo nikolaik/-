@@ -1,5 +1,0 @@
-## TODO OS
-
-- libicu
-- python
-
