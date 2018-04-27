@@ -1,0 +1,17 @@
+.reveal .inline-image img {
+    height: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+    background: none;
+    border: 0;
+    box-shadow: none;
+}
+
+.reveal .insta-maxheight {
+    max-height: 440px;
+}
+
+.reveal small.v {
+    font-size: 0.5em;
+    vertical-align: baseline;
+}

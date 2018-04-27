@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "reveal-md slides.md -w --css custom.css",
-    "build": "reveal-md slides.md --css custom.css --static _site"
+    "build": "reveal-md slides.md --css custom.css --static docs"
   },
   "devDependencies": {
     "reveal-md": "^2.0.2"
